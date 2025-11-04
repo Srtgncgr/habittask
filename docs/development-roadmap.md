@@ -14,35 +14,35 @@
 - [ ] Emulator/Simulator kurulumu ve test - Android Emulator 36.1.9.0 haz�r (Medium_Phone & Pixel_9a AVD'leri)
 
 ### 0.2 Project Architecture & Structure ?
-- [ ] Flutter projesi olu�turma (`flutter create`) - habit_tracker projesi olu�turuldu
-- [ ] Folder structure olu�turma (Clean Architecture / Feature-first)
+- [x] Flutter projesi olu�turma (`flutter create`) - habit_tracker projesi olu�turuldu
+- [x] Folder structure olu�turma (Clean Architecture / Feature-first)
   - `/lib/core` - Temel yap�lar, constants, utils ?
   - `/lib/features` - �zellik bazl� mod�ller (auth, habits, tasks, dashboard) ?
   - `/lib/shared` - Payla��lan widget'lar, components ?
   - `/lib/config` - Konfig�rasyon dosyalar� ?
-- [ ] Package dependency plan� ��kar�ld� (bkz. docs/architecture/dependency-plan.md)
-- [ ] Environment variables yap�s� (.env files) - .env.example olu�turuldu
-- [ ] Code organization pattern se�imi (Clean Architecture + BLoC) - bkz. docs/architecture/code-organization.md
-- [ ] Design system constants olu�turma (AppColors, AppTypography, AppSpacing, AppAnimations) - temel dosyalar lib/core/theme & constants alt�nda haz�r
+- [x] Package dependency plan� ��kar�ld� (bkz. docs/architecture/dependency-plan.md)
+- [x] Environment variables yap�s� (.env files) - .env.example olu�turuldu
+- [x] Code organization pattern se�imi (Clean Architecture + BLoC) - bkz. docs/architecture/code-organization.md
+- [x] Design system constants olu�turma (AppColors, AppTypography, AppSpacing, AppAnimations) - temel dosyalar lib/core/theme & constants alt�nda haz�r
 
 ### 0.3 Core Dependencies Installation ?
-- [ ] State Management (flutter_bloc, equatable) - pubspec.yaml g�ncellendi
-- [ ] Firebase Core (firebase_core, firebase_auth, cloud_firestore, firebase_storage, firebase_analytics, firebase_crashlytics, firebase_messaging, firebase_remote_config, firebase_performance) - pubspec.yaml
-- [ ] Authentication (google_sign_in, sign_in_with_apple) - pubspec.yaml
-- [ ] Local Storage (hive, hive_flutter, shared_preferences, path_provider) - pubspec.yaml
-- [ ] Localization (flutter_localizations, easy_localization, intl) - flutter_localizations sdk: flutter, easy_localization & intl eklendi
-- [ ] UI & Design (flutter_svg, cached_network_image, shimmer, animations, lottie) - pubspec.yaml
-- [ ] Utilities (get_it, injectable, logger, connectivity_plus, rxdart) - pubspec.yaml
-- [ ] Paketler `flutter pub add` + `flutter pub get` ile g�ncellendi
+- [x] State Management (flutter_bloc, equatable) - pubspec.yaml g�ncellendi
+- [x] Firebase Core (firebase_core, firebase_auth, cloud_firestore, firebase_storage, firebase_analytics, firebase_crashlytics, firebase_messaging, firebase_remote_config, firebase_performance) - pubspec.yaml
+- [x] Authentication (google_sign_in, sign_in_with_apple) - pubspec.yaml
+- [x] Local Storage (hive, hive_flutter, shared_preferences, path_provider) - pubspec.yaml
+- [x] Localization (flutter_localizations, easy_localization, intl) - flutter_localizations sdk: flutter, easy_localization & intl eklendi
+- [x] UI & Design (flutter_svg, cached_network_image, shimmer, animations, lottie) - pubspec.yaml
+- [x] Utilities (get_it, injectable, logger, connectivity_plus, rxdart) - pubspec.yaml
+- [x] Paketler `flutter pub add` + `flutter pub get` ile g�ncellendi
 
 ### 0.4 Design System Foundation ?
-- [ ] Color palette tan�mlama (Light & Dark theme) - Mint Fresh paleti (bkz. lib/core/theme/app_colors.dart)
-- [ ] Typography system (font families, sizes, weights) - Inter tabanl� stil seti (bkz. lib/core/theme/app_typography.dart)
-- [ ] Spacing system (8pt grid) - AppSpacing g�ncellendi (bkz. lib/core/constants/app_spacing.dart)
-- [ ] Border radius standards - AppRadius (bkz. lib/core/constants/app_radius.dart)
-- [ ] Shadow/elevation system - AppShadows kart/glow seti (bkz. lib/core/constants/app_shadows.dart)
-- [ ] Icon set selection (Material Symbols Outlined) - bkz. lib/core/constants/app_icons.dart
-- [ ] Custom theme extension olu�turma - AppGradients + AppTheme light/dark (bkz. lib/core/theme/theme_extensions.dart)
+- [x] Color palette tan�mlama (Light & Dark theme) - Mint Fresh paleti (bkz. lib/core/theme/app_colors.dart)
+- [x] Typography system (font families, sizes, weights) - Inter tabanl� stil seti (bkz. lib/core/theme/app_typography.dart)
+- [x] Spacing system (8pt grid) - AppSpacing g�ncellendi (bkz. lib/core/constants/app_spacing.dart)
+- [x] Border radius standards - AppRadius (bkz. lib/core/constants/app_radius.dart)
+- [x] Shadow/elevation system - AppShadows kart/glow seti (bkz. lib/core/constants/app_shadows.dart)
+- [x] Icon set selection (Material Symbols Outlined) - bkz. lib/core/constants/app_icons.dart
+- [x] Custom theme extension olu�turma - AppGradients + AppTheme light/dark (bkz. lib/core/theme/theme_extensions.dart)
 
 
 ### 0.5 Firebase Setup & Configuration
