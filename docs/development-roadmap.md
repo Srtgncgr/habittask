@@ -6,65 +6,65 @@
 ## ?? PHASE 0: Project Setup & Foundation (Week 1-2)
 
 ### 0.1 Environment & Tools Setup ?
-- [x] Flutter SDK kurulumu ve yapýlandýrmasý (son stable version) - Flutter 3.35.5, Dart 3.9.2
-- [x] iOS geliþtirme ortamý (Xcode, CocoaPods) - N/A (Windows ortamý, adým atlandý)
-- [x] Android geliþtirme ortamý (Android Studio, SDK) - Android SDK 36.1.0, Android Studio 2025.1.2
-- [x] Git repository oluþturma ve branch stratejisi belirleme - Git init, main branch
-- [x] VS Code / Android Studio eklentileri kurulumu - VS Code 1.104.3, Flutter & Dart plugins
-- [x] Emulator/Simulator kurulumu ve test - Android Emulator 36.1.9.0 hazýr (Medium_Phone & Pixel_9a AVD'leri)
+- [ ] Flutter SDK kurulumu ve yapï¿½landï¿½rmasï¿½ (son stable version) - Flutter 3.35.5, Dart 3.9.2
+- [ ] iOS geliï¿½tirme ortamï¿½ (Xcode, CocoaPods) - N/A (Windows ortamï¿½, adï¿½m atlandï¿½)
+- [ ] Android geliï¿½tirme ortamï¿½ (Android Studio, SDK) - Android SDK 36.1.0, Android Studio 2025.1.2
+- [ ] Git repository oluï¿½turma ve branch stratejisi belirleme - Git init, main branch
+- [ ] VS Code / Android Studio eklentileri kurulumu - VS Code 1.104.3, Flutter & Dart plugins
+- [ ] Emulator/Simulator kurulumu ve test - Android Emulator 36.1.9.0 hazï¿½r (Medium_Phone & Pixel_9a AVD'leri)
 
 ### 0.2 Project Architecture & Structure ?
-- [x] Flutter projesi oluþturma (`flutter create`) - habit_tracker projesi oluþturuldu
-- [x] Folder structure oluþturma (Clean Architecture / Feature-first)
-  - `/lib/core` - Temel yapýlar, constants, utils ?
-  - `/lib/features` - Özellik bazlý modüller (auth, habits, tasks, dashboard) ?
-  - `/lib/shared` - Paylaþýlan widget'lar, components ?
-  - `/lib/config` - Konfigürasyon dosyalarý ?
-- [x] Package dependency planý çýkarýldý (bkz. docs/architecture/dependency-plan.md)
-- [x] Environment variables yapýsý (.env files) - .env.example oluþturuldu
-- [x] Code organization pattern seçimi (Clean Architecture + BLoC) - bkz. docs/architecture/code-organization.md
-- [x] Design system constants oluþturma (AppColors, AppTypography, AppSpacing, AppAnimations) - temel dosyalar lib/core/theme & constants altýnda hazýr
+- [ ] Flutter projesi oluï¿½turma (`flutter create`) - habit_tracker projesi oluï¿½turuldu
+- [ ] Folder structure oluï¿½turma (Clean Architecture / Feature-first)
+  - `/lib/core` - Temel yapï¿½lar, constants, utils ?
+  - `/lib/features` - ï¿½zellik bazlï¿½ modï¿½ller (auth, habits, tasks, dashboard) ?
+  - `/lib/shared` - Paylaï¿½ï¿½lan widget'lar, components ?
+  - `/lib/config` - Konfigï¿½rasyon dosyalarï¿½ ?
+- [ ] Package dependency planï¿½ ï¿½ï¿½karï¿½ldï¿½ (bkz. docs/architecture/dependency-plan.md)
+- [ ] Environment variables yapï¿½sï¿½ (.env files) - .env.example oluï¿½turuldu
+- [ ] Code organization pattern seï¿½imi (Clean Architecture + BLoC) - bkz. docs/architecture/code-organization.md
+- [ ] Design system constants oluï¿½turma (AppColors, AppTypography, AppSpacing, AppAnimations) - temel dosyalar lib/core/theme & constants altï¿½nda hazï¿½r
 
 ### 0.3 Core Dependencies Installation ?
-- [x] State Management (flutter_bloc, equatable) - pubspec.yaml güncellendi
-- [x] Firebase Core (firebase_core, firebase_auth, cloud_firestore, firebase_storage, firebase_analytics, firebase_crashlytics, firebase_messaging, firebase_remote_config, firebase_performance) - pubspec.yaml
-- [x] Authentication (google_sign_in, sign_in_with_apple) - pubspec.yaml
-- [x] Local Storage (hive, hive_flutter, shared_preferences, path_provider) - pubspec.yaml
-- [x] Localization (flutter_localizations, easy_localization, intl) - flutter_localizations sdk: flutter, easy_localization & intl eklendi
-- [x] UI & Design (flutter_svg, cached_network_image, shimmer, animations, lottie) - pubspec.yaml
-- [x] Utilities (get_it, injectable, logger, connectivity_plus, rxdart) - pubspec.yaml
-- [x] Paketler `flutter pub add` + `flutter pub get` ile güncellendi
+- [ ] State Management (flutter_bloc, equatable) - pubspec.yaml gï¿½ncellendi
+- [ ] Firebase Core (firebase_core, firebase_auth, cloud_firestore, firebase_storage, firebase_analytics, firebase_crashlytics, firebase_messaging, firebase_remote_config, firebase_performance) - pubspec.yaml
+- [ ] Authentication (google_sign_in, sign_in_with_apple) - pubspec.yaml
+- [ ] Local Storage (hive, hive_flutter, shared_preferences, path_provider) - pubspec.yaml
+- [ ] Localization (flutter_localizations, easy_localization, intl) - flutter_localizations sdk: flutter, easy_localization & intl eklendi
+- [ ] UI & Design (flutter_svg, cached_network_image, shimmer, animations, lottie) - pubspec.yaml
+- [ ] Utilities (get_it, injectable, logger, connectivity_plus, rxdart) - pubspec.yaml
+- [ ] Paketler `flutter pub add` + `flutter pub get` ile gï¿½ncellendi
 
 ### 0.4 Design System Foundation ?
-- [x] Color palette tanýmlama (Light & Dark theme) - Mint Fresh paleti (bkz. lib/core/theme/app_colors.dart)
-- [x] Typography system (font families, sizes, weights) - Inter tabanlý stil seti (bkz. lib/core/theme/app_typography.dart)
-- [x] Spacing system (8pt grid) - AppSpacing güncellendi (bkz. lib/core/constants/app_spacing.dart)
-- [x] Border radius standards - AppRadius (bkz. lib/core/constants/app_radius.dart)
-- [x] Shadow/elevation system - AppShadows kart/glow seti (bkz. lib/core/constants/app_shadows.dart)
-- [x] Icon set selection (Material Symbols Outlined) - bkz. lib/core/constants/app_icons.dart
-- [x] Custom theme extension oluþturma - AppGradients + AppTheme light/dark (bkz. lib/core/theme/theme_extensions.dart)
+- [ ] Color palette tanï¿½mlama (Light & Dark theme) - Mint Fresh paleti (bkz. lib/core/theme/app_colors.dart)
+- [ ] Typography system (font families, sizes, weights) - Inter tabanlï¿½ stil seti (bkz. lib/core/theme/app_typography.dart)
+- [ ] Spacing system (8pt grid) - AppSpacing gï¿½ncellendi (bkz. lib/core/constants/app_spacing.dart)
+- [ ] Border radius standards - AppRadius (bkz. lib/core/constants/app_radius.dart)
+- [ ] Shadow/elevation system - AppShadows kart/glow seti (bkz. lib/core/constants/app_shadows.dart)
+- [ ] Icon set selection (Material Symbols Outlined) - bkz. lib/core/constants/app_icons.dart
+- [ ] Custom theme extension oluï¿½turma - AppGradients + AppTheme light/dark (bkz. lib/core/theme/theme_extensions.dart)
 
 
 ### 0.5 Firebase Setup & Configuration
-- [x] Repository Firebase altyapýsý hazýrlandý (FirebaseInitializer, security rules, .firebaserc, CLI script)
-- [x] FlutterFire CLI kurulumu (dart pub global activate flutterfire_cli)
-- [x] Firestore & Storage Security Rules yazýldý (firebase/firestore.rules, firebase/storage.rules)
-- [x] Firebase projesi oluþturma (Console) - kullanýcý aksiyonu (bkz. docs/firebase-setup.md)
-- [x] iOS app ekleme ve GoogleService-Info.plist indirme - kullanýcý aksiyonu
-- [x] Android app ekleme ve google-services.json indirme - kullanýcý aksiyonu
-- [x] Firebase initialize (flutterfire configure) çalýþtýrma - kullanýcý aksiyonu (konfigürasyon dosyalarý sonrasý)
-- [x] Firebase Authentication aktifleþtirme (Email/Password, Google, Apple) - kullanýcý aksiyonu
-- [x] Firestore Database oluþturma (region seçimi: europe-west1) - kullanýcý aksiyonu
-- [x] Firebase Storage bucket oluþturma - kullanýcý aksiyonu
-- [ ] Firebase Analytics aktifleþtirme - kullanýcý tercihi
-- [ ] Firebase Crashlytics setup - konfigürasyon sonrasý
-- [ ] Firebase Performance Monitoring setup - konfigürasyon sonrasý
+- [ ] Repository Firebase altyapï¿½sï¿½ hazï¿½rlandï¿½ (FirebaseInitializer, security rules, .firebaserc, CLI script)
+- [ ] FlutterFire CLI kurulumu (dart pub global activate flutterfire_cli)
+- [ ] Firestore & Storage Security Rules yazï¿½ldï¿½ (firebase/firestore.rules, firebase/storage.rules)
+- [ ] Firebase projesi oluï¿½turma (Console) - kullanï¿½cï¿½ aksiyonu (bkz. docs/firebase-setup.md)
+- [ ] iOS app ekleme ve GoogleService-Info.plist indirme - kullanï¿½cï¿½ aksiyonu
+- [ ] Android app ekleme ve google-services.json indirme - kullanï¿½cï¿½ aksiyonu
+- [ ] Firebase initialize (flutterfire configure) ï¿½alï¿½ï¿½tï¿½rma - kullanï¿½cï¿½ aksiyonu (konfigï¿½rasyon dosyalarï¿½ sonrasï¿½)
+- [ ] Firebase Authentication aktifleï¿½tirme (Email/Password, Google, Apple) - kullanï¿½cï¿½ aksiyonu
+- [ ] Firestore Database oluï¿½turma (region seï¿½imi: europe-west1) - kullanï¿½cï¿½ aksiyonu
+- [ ] Firebase Storage bucket oluï¿½turma - kullanï¿½cï¿½ aksiyonu
+- [ ] Firebase Analytics aktifleï¿½tirme - kullanï¿½cï¿½ tercihi
+- [ ] Firebase Crashlytics setup - konfigï¿½rasyon sonrasï¿½
+- [ ] Firebase Performance Monitoring setup - konfigï¿½rasyon sonrasï¿½
 
 ### 0.6 Firestore Database Schema Design
-- [x] Koleksiyon þemasý ve alan tipleri dokümante edildi (bkz. docs/architecture/firestore-schema.md)
-- [x] Firestore indeksleri tanýmlandý (bkz. firebase/firestore.indexes.json)
-- [x] Firestore güvenlik kurallarý owner fallback ile güncellendi (bkz. firebase/firestore.rules)
-- [ ] Seed data / emülatör senaryolarý hazýrlanmasý (opsiyonel, Faz 1)
+- [ ] Koleksiyon ï¿½emasï¿½ ve alan tipleri dokï¿½mante edildi (bkz. docs/architecture/firestore-schema.md)
+- [ ] Firestore indeksleri tanï¿½mlandï¿½ (bkz. firebase/firestore.indexes.json)
+- [ ] Firestore gï¿½venlik kurallarï¿½ owner fallback ile gï¿½ncellendi (bkz. firebase/firestore.rules)
+- [ ] Seed data / emï¿½latï¿½r senaryolarï¿½ hazï¿½rlanmasï¿½ (opsiyonel, Faz 1)
 ### 0.7 Firestore Security Rules Planning
 ```javascript
 rules_version = '2';
@@ -147,107 +147,107 @@ service cloud.firestore {
 ## ?? PHASE 1: MVP Core Features (Week 3-10) - iOS Priority
 
 ### 1.1 Authentication Module (Week 3)
-- [x] Firebase Auth entegrasyonu (`firebase_auth` package)
-- [x] Firebase auth wrapper service oluþturma
-- [x] Email/Password auth UI ve logic
+- [ ] Firebase Auth entegrasyonu (`firebase_auth` package)
+- [ ] Firebase auth wrapper service oluï¿½turma
+- [ ] Email/Password auth UI ve logic
   - Sign up form
   - Sign in form
   - Email verification
-- [x] Google Sign-In entegrasyonu (`google_sign_in` package) - provider tabanlý akýþ hazýr
+- [ ] Google Sign-In entegrasyonu (`google_sign_in` package) - provider tabanlï¿½ akï¿½ï¿½ hazï¿½r
   - Google Sign-In button
   - OAuth flow implementation
-- [x] Apple Sign-In entegrasyonu (iOS zorunlu - `sign_in_with_apple`) - backend hazýr
+- [ ] Apple Sign-In entegrasyonu (iOS zorunlu - `sign_in_with_apple`) - backend hazï¿½r
   - Apple Sign-In button
   - Credential handling
 - [ ] Biometric authentication (Face ID / Touch ID) - `local_auth` package
-- [x] Auth state management (BLoC)
+- [ ] Auth state management (BLoC)
   - AuthenticationBloc/Provider
   - AuthenticationState handling
   - Stream subscription
-- [x] Splash screen ve auto-login
+- [ ] Splash screen ve auto-login
   - Firebase persistence check
   - Token refresh handling
-- [x] Password reset flow (Firebase)
+- [ ] Password reset flow (Firebase)
   - Forgot password screen
   - Email link handling
-- [x] Error handling ve validation
+- [ ] Error handling ve validation
   - Firebase error codes mapping
   - User-friendly error messages
-- [x] User profili Firestore'a kaydetme
+- [ ] User profili Firestore'a kaydetme
   - User document creation
   - Default preferences setup
 
 ### 1.2 Onboarding Flow (Week 3-4)
-- [x] Welcome screens (3-4 sayfa carousel)
-- [x] Dil seçimi ekraný (TR default)
-- [x] Kullanýcý tercihleri anketi
-  - Hedef kategorileri seçimi
-  - Günlük program tercihi (sabah/akþam kiþisi)
+- [ ] Welcome screens (3-4 sayfa carousel)
+- [ ] Dil seï¿½imi ekranï¿½ (TR default)
+- [ ] Kullanï¿½cï¿½ tercihleri anketi
+  - Hedef kategorileri seï¿½imi
+  - Gï¿½nlï¿½k program tercihi (sabah/akï¿½am kiï¿½isi)
   - Bildirim tercihleri
-- [x] Ýlk habit oluþturma guided flow
-- [x] Ýlk task oluþturma guided flow
-- [x] Onboarding tamamlama ve dashboard'a geçiþ
-- [x] Skip option ve progress indicator
+- [ ] ï¿½lk habit oluï¿½turma guided flow
+- [ ] ï¿½lk task oluï¿½turma guided flow
+- [ ] Onboarding tamamlama ve dashboard'a geï¿½iï¿½
+- [ ] Skip option ve progress indicator
 
 ### 1.3 Localization Infrastructure (Week 4)
-- [x] i18n package setup (easy_localization / intl)
-- [x] JSON/ARB dosyalarý yapýsý oluþturma
-- [x] Türkçe dil dosyalarý oluþturma
-- [x] Language switcher widget
-- [x] Date/time format localization
-- [x] Number format localization
-- [x] RTL support hazýrlýðý (future-proof)
-- [x] Translation helper functions
+- [ ] i18n package setup (easy_localization / intl)
+- [ ] JSON/ARB dosyalarï¿½ yapï¿½sï¿½ oluï¿½turma
+- [ ] Tï¿½rkï¿½e dil dosyalarï¿½ oluï¿½turma
+- [ ] Language switcher widget
+- [ ] Date/time format localization
+- [ ] Number format localization
+- [ ] RTL support hazï¿½rlï¿½ï¿½ï¿½ (future-proof)
+- [ ] Translation helper functions
 
 ### 1.4 Data Layer & Local Storage (Week 4-5)
 #### Firestore Integration
-- [x] Data models oluþturma (Habit, Task, User, Category)
+- [ ] Data models oluï¿½turma (Habit, Task, User, Category)
   - Freezed/JsonSerializable annotations
   - toJson() / fromJson() methods
   - Firestore converters
-- [x] Repository pattern implementation
+- [ ] Repository pattern implementation
   - Abstract repository interfaces
   - Firebase repository implementations
   - Dependency injection setup
-- [x] Firestore CRUD operations for Habits
-  - Create habit › `habits/` collection
+- [ ] Firestore CRUD operations for Habits
+  - Create habit ï¿½ `habits/` collection
   - Read user habits (query with userId)
   - Update habit
   - Delete/Archive habit
   - Real-time listeners
-- [x] Firestore CRUD operations for Tasks
-  - Create task › `tasks/` collection
+- [ ] Firestore CRUD operations for Tasks
+  - Create task ï¿½ `tasks/` collection
   - Read user tasks (query with userId)
   - Update task
   - Delete task
   - Real-time listeners
-- [x] Firestore CRUD operations for Habit Completions
-  - Create completion › `habit_completions/` collection
+- [ ] Firestore CRUD operations for Habit Completions
+  - Create completion ï¿½ `habit_completions/` collection
   - Query completions by habitId and date range
   - Streak calculation logic
 
 #### Offline-First Architecture
-- [x] Hive/Isar setup for local cache
-  - [x] Box registration
-  - [x] Type adapters
-- [x] Offline-first sync strategy
-  - [x] Firestore offline persistence enabled
-  - [x] Local cache as primary data source
-  - [x] Firestore as sync layer
-- [x] Connectivity checking (`connectivity_plus`)
-- [x] Sync conflict resolution
-- [x] Data encryption (Hive encryption)
-- [x] Migration strategy (version management)
+- [ ] Hive/Isar setup for local cache
+  - [ ] Box registration
+  - [ ] Type adapters
+- [ ] Offline-first sync strategy
+  - [ ] Firestore offline persistence enabled
+  - [ ] Local cache as primary data source
+  - [ ] Firestore as sync layer
+- [ ] Connectivity checking (`connectivity_plus`)
+- [ ] Sync conflict resolution
+- [ ] Data encryption (Hive encryption)
+- [ ] Migration strategy (version management)
 
 ### 1.5 Habit Builder Module - Core (Week 5-6)
 #### UI Components
 - [ ] Habit list screen
 - [ ] Habit creation form
-  - Ýsim, açýklama
-  - Kategori seçimi (Health, Career, Personal, etc.)
-  - Frekans seçimi (Daily, Specific Days, Weekly)
-  - Renk seçimi
-  - Icon seçimi
+  - ï¿½sim, aï¿½ï¿½klama
+  - Kategori seï¿½imi (Health, Career, Personal, etc.)
+  - Frekans seï¿½imi (Daily, Specific Days, Weekly)
+  - Renk seï¿½imi
+  - Icon seï¿½imi
 - [ ] Habit card widget (list item)
 - [ ] Habit detail screen
 - [ ] Habit edit form
@@ -270,7 +270,7 @@ service cloud.firestore {
 #### UI Components
 - [ ] Task list screen (Today view)
 - [ ] Task creation form
-  - Baþlýk, açýklama
+  - Baï¿½lï¿½k, aï¿½ï¿½klama
   - Due date picker
   - Priority selection (High/Medium/Low)
   - Category/Label
@@ -386,7 +386,7 @@ service cloud.firestore {
 - [ ] Android notification channels
 - [ ] Android permissions handling
 - [ ] Android app signing setup
-- [ ] Play Store assets hazýrlýðý
+- [ ] Play Store assets hazï¿½rlï¿½ï¿½ï¿½
 - [ ] Android testing (multiple devices)
 
 ### 2.2 Advanced Habit Features (Week 12-13)
@@ -435,10 +435,10 @@ service cloud.firestore {
   - Functions initialization
   - Deploy configuration
 - [ ] Badge earning triggers (Cloud Functions)
-  - onHabitCreated › First habit badge
-  - onHabitCompleted › Streak badges (7, 30, 100 days)
-  - Weekly completion check › Perfect week badge
-  - Category completion › Category master badges
+  - onHabitCreated ï¿½ First habit badge
+  - onHabitCompleted ï¿½ Streak badges (7, 30, 100 days)
+  - Weekly completion check ï¿½ Perfect week badge
+  - Category completion ï¿½ Category master badges
 - [ ] Badge document creation in Firestore
   - Seed initial badges to `badges/` collection
   - Badge metadata (title, description, icon)
@@ -555,7 +555,7 @@ service cloud.firestore {
 - [ ] Feedback collection system
   - In-app feedback form (saves to Firestore)
   - Firebase Cloud Functions for feedback notifications
-- [ ] Firebase Crashlytics setup - konfigürasyon sonrasý
+- [ ] Firebase Crashlytics setup - konfigï¿½rasyon sonrasï¿½
   - Automatic crash reporting
   - Custom crash keys
   - Crash-free users tracking
@@ -614,34 +614,34 @@ service cloud.firestore {
 #### Firestore Schema for Teams
 ```
 teams/ (Collection)
-  +¦ {teamId}/ (Document)
-      +¦ name: string
-      +¦ ownerId: string
-      +¦ createdAt: timestamp
-      L¦ settings: map
+  +ï¿½ {teamId}/ (Document)
+      +ï¿½ name: string
+      +ï¿½ ownerId: string
+      +ï¿½ createdAt: timestamp
+      Lï¿½ settings: map
 
 team_members/ (Collection)
-  +¦ {memberId}/ (Document)
-      +¦ teamId: string (indexed)
-      +¦ userId: string (indexed)
-      +¦ role: string (admin, member, viewer)
-      +¦ joinedAt: timestamp
-      L¦ invitedBy: string
+  +ï¿½ {memberId}/ (Document)
+      +ï¿½ teamId: string (indexed)
+      +ï¿½ userId: string (indexed)
+      +ï¿½ role: string (admin, member, viewer)
+      +ï¿½ joinedAt: timestamp
+      Lï¿½ invitedBy: string
 
 team_habits/ (Collection)
-  +¦ {habitId}/ (Document)
-      +¦ teamId: string (indexed)
-      +¦ createdBy: string
-      +¦ sharedWith: array [userId]
-      L¦ ... (similar to habits)
+  +ï¿½ {habitId}/ (Document)
+      +ï¿½ teamId: string (indexed)
+      +ï¿½ createdBy: string
+      +ï¿½ sharedWith: array [userId]
+      Lï¿½ ... (similar to habits)
 
 team_activity/ (Collection)
-  +¦ {activityId}/ (Document)
-      +¦ teamId: string (indexed)
-      +¦ userId: string
-      +¦ action: string
-      +¦ timestamp: timestamp
-      L¦ metadata: map
+  +ï¿½ {activityId}/ (Document)
+      +ï¿½ teamId: string (indexed)
+      +ï¿½ userId: string
+      +ï¿½ action: string
+      +ï¿½ timestamp: timestamp
+      Lï¿½ metadata: map
 ```
 
 #### Implementation
@@ -746,7 +746,7 @@ team_activity/ (Collection)
 - [ ] Legal compliance (GDPR, KVKK)
 - [ ] App Store assets (screenshots, videos)
 - [ ] Play Store assets
-- [ ] Press kit hazýrlama
+- [ ] Press kit hazï¿½rlama
 - [ ] Launch marketing materials
 
 ---
@@ -975,16 +975,16 @@ team_activity/ (Collection)
 ### Firebase Project Structure
 ```
 habit-tracker-prod (Production)
-+¦ Firestore Database (europe-west1)
-+¦ Authentication
-+¦ Storage
-+¦ Cloud Functions (Node.js 18)
-+¦ Hosting
-L¦ Extensions
++ï¿½ Firestore Database (europe-west1)
++ï¿½ Authentication
++ï¿½ Storage
++ï¿½ Cloud Functions (Node.js 18)
++ï¿½ Hosting
+Lï¿½ Extensions
 
 habit-tracker-dev (Development)
-+¦ Same structure as prod
-L¦ Test data
++ï¿½ Same structure as prod
+Lï¿½ Test data
 ```
 
 ### Cost Estimation (Firebase)
@@ -1038,13 +1038,13 @@ L¦ Test data
 
 ## ?? NOTES
 
-- Her hafta sprint review yapýlmalý
-- Her 2 haftada bir kullanýcý feedback toplanmalý
-- Aylýk technical debt review
-- Çeyreklik roadmap review ve güncelleme
-- Flexible olun - kullanýcý feedback'ine göre öncelikleri ayarlayýn
+- Her hafta sprint review yapï¿½lmalï¿½
+- Her 2 haftada bir kullanï¿½cï¿½ feedback toplanmalï¿½
+- Aylï¿½k technical debt review
+- ï¿½eyreklik roadmap review ve gï¿½ncelleme
+- Flexible olun - kullanï¿½cï¿½ feedback'ine gï¿½re ï¿½ncelikleri ayarlayï¿½n
 - Firebase quotas ve limits'i takip edin
-- Firebase Console'dan düzenli olarak performans metrikleri kontrol edin
+- Firebase Console'dan dï¿½zenli olarak performans metrikleri kontrol edin
 
 **Last Updated**: 2025-10-30
 **Version**: 2.0 (Firebase-specific)
